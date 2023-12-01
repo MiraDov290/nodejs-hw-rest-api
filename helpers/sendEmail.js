@@ -25,3 +25,14 @@ const sendEmail = async (data) => {
 };
 
 module.exports = { sendEmail };
+
+// const email = {
+//   to: "noresponse@gmail.com",
+//   from: "mirosya29@meta.ua",
+//   subject: "Test email",
+//   html: "<p><strong>Test email</strong> from localhost:3000</p>"
+// };
+
+// transporter.sendMail(email)
+//   .then(() => console.log("Email send success"))
+//   .catch(error => console.log(error.message));
